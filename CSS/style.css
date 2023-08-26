@@ -14,9 +14,10 @@ html {
     /*Nos permie desilzar cuando hacemos click en los links del menu*/
     scroll-behavior: smooth;
 }
+
 /*------NAV----------*/
 .contenedor-header {
-    background:#fff;
+    background: #fff;
     width: 100%;
     top: 0;
     left: 0;
@@ -24,6 +25,7 @@ html {
     position: fixed;
     top: 0;
 }
+
 .contenedor-header header {
     margin: auto;
     display: flex;
@@ -55,7 +57,7 @@ html {
 
 .contenedor-header header nav ul li a {
     text-align: none;
-    color:#000000;
+    color: #000000;
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
@@ -65,11 +67,11 @@ html {
 
 .contenedor-header header nav ul li a.active,
 header nav ul li a:hover {
-    color:#5FBBBF;
+    color: #5FBBBF;
 }
 
 .nav-responsive {
-    background-color:#5FBBBF ;
+    background-color: #5FBBBF;
     color: #ffffff;
     padding: 15px 15px;
     border-radius: 5px;
@@ -78,29 +80,32 @@ header nav ul li a:hover {
 }
 
 /*-----------------SECCTION-----------------*/
-.contenedor-sectionInicio{
+.contenedor-sectionInicio {
     height: 100vh;
     background-image: url('../IMG/fondo1.jpg');
     background-attachment: fixed;
     background-size: cover;
-    
+
 }
+
 .capa {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color:#5FBBBF ;
+    background-color: #5FBBBF;
     opacity: 0.2;
+    
 }
-.contenido_sectionInicio{
+
+.contenido_sectionInicio {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.contenido_sectionInicio h1{
+.contenido_sectionInicio h1 {
     padding-top: 200px;
     display: flex;
     flex-direction: column;
@@ -110,23 +115,24 @@ header nav ul li a:hover {
     position: relative;
     z-index: 2;
     color: rgb(225, 225, 225);
-    font-size:100px;
+    font-size: 100px;
     letter-spacing: 0.05em;
     text-decoration: none;
-
-    animation: teclear 2s steps(38)  infinite;   
+    animation: teclear 2s steps(38) infinite;
 }
 
 @keyframes teclear {
-    from{
+    from {
         clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
     }
-    to{
+
+    to {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
 }
+
 @keyframes efecto {
-    50%{
+    50% {
         border-color: transparent;
     }
 }
@@ -134,29 +140,42 @@ header nav ul li a:hover {
 
 
 /*--- SECTION 2 ---*/
-.contenedor-sectionInicio2{
-    height: 100vh;
+.contenedor-sectionInicio2 {
+    height: 60vh;
     background-color: #fff;
-    scroll-margin-top: 3.8em;
-    
+    scroll-margin-top: 4em;
+
 }
-.contenido_sectionInicio h2{
+
+.contenido_sectionInicio2 h2 {
     padding-top: 20px;
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: auto;
+    justify-content: center;
+    margin-bottom: 50px;
     position: relative;
     z-index: 2;
-    color:#5FBBBF;
-    font-size:50px;
+    color: #5FBBBF;
+    font-size: 50px;
     letter-spacing: 0.05em;
     text-decoration: none;
 }
 
+.clearfix p {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.clearfix img{
+    border-radius:10px;
+
+}
+
 /*--- MEDIA QUERYS ---*/
 @media screen and (max-width: 998px) {
-    
+
 
     /*SECCION NAV*/
     nav {
@@ -172,7 +191,7 @@ header nav ul li a:hover {
         position: absolute;
         right: 0px;
         top: 95px;
-        background-color:#5FBBBF ;
+        background-color: #5FBBBF;
         width: 200px;
 
     }
@@ -184,7 +203,8 @@ header nav ul li a:hover {
     nav.responsive ul li {
         padding: 10px;
     }
-    .contenido_sectionInicio h1{
+
+    .contenido_sectionInicio h1 {
         font-size: 80px;
     }
 }
