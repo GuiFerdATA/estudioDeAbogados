@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;200;300;400;600;800&display=swap');
+
+/*  mix-blend-mode: overlay; usar en capa */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    /*Nos permie desilzar cuando hacemos click en los links del menu*/
+    scroll-behavior: smooth;
+}
+/*------NAV----------*/
+.contenedor-header {
+    background:#fff;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+}
+.contenedor-header header {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.contenedor-header header .logo {
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    padding: 0px;
+
+}
+
+.contenedor-header header .logo a {
+    font-size: 25px;
+    color: #5FBBBF;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+.contenedor-header header ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.contenedor-header header nav ul li a {
+    text-align: none;
+    color:#000000;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+}
+
+.contenedor-header header nav ul li a.active,
+header nav ul li a:hover {
+    color:#5FBBBF;
+}
+
+.nav-responsive {
+    background-color:#5FBBBF ;
+    color: #ffffff;
+    padding: 15px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+/*-----------------SECCTION-----------------*/
+.contenedor-sectionInicio{
+    height: 100vh;
+    background-image: url('../IMG/fondo1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#5FBBBF ;
+    opacity: 0.2;
+}
+.contenido_sectionInicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido_sectionInicio h1{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    color: rgb(225, 225, 225);
+    font-size:100px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+
+    animation: teclear 2s steps(38)  infinite;   
+}
+
+@keyframes teclear {
+    from{
+        clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+@keyframes efecto {
+    50%{
+        border-color: transparent;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 998px) {
+    
+
+    /*SECCION NAV*/
+    nav {
+        display: none;
+    }
+
+    .nav-responsive {
+        display: block;
+    }
+
+    nav.responsive {
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 95px;
+        background-color:#5FBBBF ;
+        width: 200px;
+
+    }
+
+    nav.responsive ul {
+        display: block !important;
+    }
+
+    nav.responsive ul li {
+        padding: 10px;
+    }
+    .contenido_sectionInicio h1{
+        font-size: 80px;
+    }
+}
