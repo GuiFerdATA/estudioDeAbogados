@@ -133,9 +133,28 @@ header nav ul li a:hover {
 
 
 
+/*--- SECTION 2 ---*/
+.contenedor-sectionInicio2{
+    height: 100vh;
+    background-color: #fff;
+    scroll-margin-top: 3.8em;
+    
+}
+.contenido_sectionInicio h2{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    color:#5FBBBF;
+    font-size:50px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+}
 
-
-
+/*--- MEDIA QUERYS ---*/
 @media screen and (max-width: 998px) {
     
 
