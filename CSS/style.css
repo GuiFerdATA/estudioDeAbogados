@@ -139,38 +139,59 @@ header nav ul li a:hover {
 
 
 /*--- SECTION 2 ---*/
-.contenedor-sectionInicio2 {
+.pantalla-dividida{
+    scroll-margin-top: 5em;
+    display:flex;
+}
+.quienesSpan{
+    color: #fff;
+}
+
+
+.izquierda{
     height: 100vh;
-    background-color: #fff;
-    scroll-margin-top: 4em;
-
+    background: rgb(95,187,191);
+background: linear-gradient(103deg, rgba(95,187,191,1) 72%, rgba(0,0,0,1) 100%);
+    width: 50%;
 }
-
-.contenido_sectionInicio2 h2 {
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    position: relative;
-    z-index: 2;
-    color: #5FBBBF;
-    font-size: 50px;
-    letter-spacing: 0.05em;
-    text-decoration: none;
-}
-
-.clearfix p {
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.izquierda h2{
+    font-size: 90px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 80px;
     text-align: center;
-    letter-spacing: 0.05em;
 }
-.clearfix img{
-    border-radius:10px;
+.izquierda p{
+    font-size: 19px;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+}
 
+.derecha{
+background-color: #ffffff;
+    width: 50%;
+    height: 100vh;
 }
+.buttonQuienesSomos{
+    border: 1px solid #ffffff;
+    padding: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 100px;
+}
+.link{
+    text-align: center;
+}
+
+
+
 
 /*--- MEDIA QUERYS ---*/
 @media screen and (max-width: 998px) {
