@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;200;300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Righteous&family=Work+Sans:wght@100;200;300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Righteous&family=Sen&family=Work+Sans:wght@100;200;300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:ital,wght@1,300&family=Righteous&family=Sen&family=Work+Sans:wght@100;200;300;400;600;800&display=swap');
 
 * {
     padding: 0;
@@ -46,6 +48,7 @@ html {
     color: #5FBBBF;
     text-decoration: none;
     letter-spacing: 0.03em;
+    font-family:  'Dancing Script', cursive;
 }
 
 .contenedor-header header ul {
@@ -61,7 +64,8 @@ html {
     padding: 3px;
     transition: .5s;
     text-decoration: none;
-    letter-spacing: 0.05em;
+
+    font-family: 'Work Sans', sans-serif;
 }
 
 .contenedor-header header nav ul li a.active,
@@ -95,7 +99,7 @@ header nav ul li a:hover {
     height: 100%;
     background-color: #5FBBBF;
     opacity: 0.2;
-    
+
 }
 
 .contenido_sectionInicio {
@@ -139,22 +143,24 @@ header nav ul li a:hover {
 
 
 /*--- SECTION 2 ---*/
-.pantalla-dividida{
+.pantalla-dividida {
     scroll-margin-top: 5em;
-    display:flex;
+    display: flex;
 }
-.quienesSpan{
+
+.quienesSpan {
     color: #fff;
 }
 
 
-.izquierda{
+.izquierda {
     height: 100vh;
-    background: rgb(95,187,191);
-background: linear-gradient(103deg, rgba(95,187,191,1) 72%, rgba(0,0,0,1) 100%);
+    background: rgb(95, 187, 191);
+    background: linear-gradient(103deg, rgba(95, 187, 191, 1) 72%, rgba(0, 0, 0, 1) 100%);
     width: 50%;
 }
-.izquierda h2{
+
+.izquierda h2 {
     font-size: 90px;
     width: 50%;
     margin: auto;
@@ -162,21 +168,24 @@ background: linear-gradient(103deg, rgba(95,187,191,1) 72%, rgba(0,0,0,1) 100%);
     margin-top: 80px;
     text-align: center;
 }
-.izquierda p{
+
+.izquierda p {
     font-size: 19px;
     line-height: 30px;
     width: 50%;
     margin: auto;
     text-align: center;
     margin-top: 60px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.derecha{
-background-color: #ffffff;
+.derecha {
+    background-color: #ffffff;
     width: 50%;
     height: 100vh;
 }
-.buttonQuienesSomos{
+
+.buttonQuienesSomos {
     border: 1px solid #ffffff;
     padding: 20px;
     text-decoration: none;
@@ -185,10 +194,13 @@ background-color: #ffffff;
     font-weight: bold;
     display: inline-block;
     margin-top: 100px;
+    
 }
-.link{
+
+.link {
     text-align: center;
 }
+
 
 
 
