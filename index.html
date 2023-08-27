@@ -36,13 +36,13 @@
         </header>
     </div>
     <!--seccion inicio-->
-    <section class="contenedor-sectionInicio" id="inicio">
-        <div class="contenido_sectionInicio">
-            <h1 class="typing__effect">ESTUDIO JURIDICO TANDIL</h1>
+    <section class="contenedor-sectionInicio rellax"data-rellax-speed="7" id="inicio">
+        <div class="contenido_sectionInicio rellax" data-rellax-speed="7">
+            <h1 class="typing__effect rellax"data-rellax-speed="7">ESTUDIO JURIDICO TANDIL</h1>
         </div>
     </section>
-    <div class="capa"></div>
-    <section class="pantalla-dividida" id="quienesSomos">
+    <div class="capa rellax" data-rellax-speed="7"></div>
+    <section class="pantalla-dividida rellax" data-rellax-speed="7" id="quienesSomos">
         <div class="izquierda">
             <h2> <span class="quienesSpan">QIENES</span> SOMOS</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maxime placeat alias, saepe
@@ -62,6 +62,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            // Also can pass in optional settings block
+            var rellax = new Rellax('.rellax', {
+              speed: -2,
+              center: false,
+              wrapper: null,
+              round: true,
+              vertical: true,
+              horizontal: false
+            });
+          </script>
 </body>
 
 </html>

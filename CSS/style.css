@@ -144,7 +144,7 @@ header nav ul li a:hover {
 
 /*--- SECTION 2 ---*/
 .pantalla-dividida {
-    scroll-margin-top: 5em;
+    scroll-margin-top: 20em;
     display: flex;
 }
 
@@ -165,7 +165,7 @@ header nav ul li a:hover {
     width: 50%;
     margin: auto;
     margin-bottom: 40px;
-    margin-top: 80px;
+    margin-top: 20px;
     text-align: center;
 }
 
