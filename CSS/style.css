@@ -180,7 +180,10 @@ header nav ul li a:hover {
 }
 
 .derecha {
-    background-color: #ffffff;
+    background-image: url('../IMG/escala-carrera_1098-16679.avif');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
     width: 50%;
     height: 100vh;
 }
