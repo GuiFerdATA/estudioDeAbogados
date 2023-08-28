@@ -177,6 +177,7 @@ header nav ul li a:hover {
     text-align: center;
     margin-top: 60px;
     font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.05em;
 }
 
 .derecha {
@@ -186,6 +187,15 @@ header nav ul li a:hover {
     background-position: center center;
     width: 50%;
     height: 100vh;
+}
+.capa2{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: #5FBBBF;
+    opacity: 0.15;
 }
 
 .buttonQuienesSomos {
@@ -197,6 +207,7 @@ header nav ul li a:hover {
     font-weight: bold;
     display: inline-block;
     margin-top: 100px;
+    letter-spacing: 0.2em;
     
 }
 
