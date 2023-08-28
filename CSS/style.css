@@ -39,7 +39,6 @@ html {
     text-decoration: none;
     display: flex;
     text-align: center;
-    padding: 0px;
 
 }
 
@@ -64,7 +63,7 @@ html {
     padding: 3px;
     transition: .5s;
     text-decoration: none;
-
+    letter-spacing: 0.02em;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -118,11 +117,11 @@ header nav ul li a:hover {
     margin: auto;
     position: relative;
     z-index: 2;
-    color: rgb(225, 225, 225);
+    color: rgb(255, 255, 255);
     font-size: 100px;
     letter-spacing: 0.05em;
     text-decoration: none;
-    animation: teclear 2s steps(38) infinite;
+    animation: teclear 2s steps(70) infinite ;
 }
 
 @keyframes teclear {
