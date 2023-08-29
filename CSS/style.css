@@ -87,7 +87,7 @@ header nav ul li a:hover {
     background-image: url('../IMG/fondo1.jpg');
     background-attachment: fixed;
     background-size: cover;
-    scroll-margin-top: 24em;
+    scroll-margin-top: 45em;
 }
 
 .capa {
@@ -98,8 +98,6 @@ header nav ul li a:hover {
     height: 100%;
     background-color: #5FBBBF;
     opacity: 0.2;
-    scroll-margin-top: 24em;
-
 }
 
 .contenido_sectionInicio {
@@ -199,7 +197,7 @@ header nav ul li a:hover {
 }
 
 .buttonQuienesSomos {
-    border: 1px solid #ffffff;
+    border: 1px solid antiquewhite;
     padding: 20px;
     text-decoration: none;
     color: #ffffff;
@@ -215,57 +213,112 @@ header nav ul li a:hover {
     text-align: center;
 }
 
-/* --- FOOTER ---*/
-footer {
-    background: rgb(255,255,255);
-background: linear-gradient(328deg, rgba(255,255,255,1) 18%, rgba(44,133,136,1) 50%, rgba(255,255,255,1) 81%);
 
-
-
-    
-    color: #fff;
-    padding: 50px 0 30px 0;
+/*SECTION SERVICIOS*/
+.contenedor-servicios{
+    scroll-margin-top: 5.9em;
+    display: flex;
+    justify-content: center;
+}
+.container_servicios{
+    height: 100vh;
+    width:50%;
+    background-color:white;
+}
+.container_servicios h3{
     text-align: center;
-    position: relative;
-    width: 100%;
+    margin-top: 35px;
+    font-size: 80px;
+    animation: teclear 3s steps(70) infinite;
+}
+.serviciosSpan{
+    color: #000000;
+}
+.serviciosSpanS{
+    color:#5FBBBF;
+}
+.parrafoServicios {
+    text-align: center;
+    margin-top:25px ;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.05em;
+}
+.card-text{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.row h5{
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+img{
+    height:150px;
+    width:100%;
+  }
+  
+  div [class^="col-"]{
+    padding-left:5px;
+    padding-right:5px;
+  }
+  .card{
+    transition:0.5s;
+    cursor:pointer;
+  }
+  .card-title{  
+    font-size:15px;
+    transition:1s;
+    cursor:pointer;
+  }
+
+
+  .card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+  }
+  .card-text{
+    height:80px;  
+  }
+  .card-title i{  
+    font-size:15px;
+    transition:1s;
+    cursor:pointer;
+    color:#5FBBBF;
+  }
+  .card-title i:hover{
+    transform: scale(1.25) rotate(100deg); 
+    color:#18d4ca;
+    
+  }
+  .card::before, .card::after {
     position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale3d(0, 0, 1);
+    transition: transform .3s ease-out 0s;
+    background:#5FBBBF;
+    opacity: 0.10;
+    content: '';
+    pointer-events: none;
+  }
+  .card::before {
+    transform-origin: left top;
+  }
+  .card::after {
+    transform-origin: right bottom;
+  }
+  .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
+    transform: scale3d(1, 1, 1);
+  }
 
-    width: 100%;
+.row a{
+    margin-top: 50px;
+    text-align: center;
 }
 
-footer .redes {
-    margin-bottom: 10px;
-}
-
-footer .redes a {
-    color: #ffffff;
-    display: inline-block;
-    text-decoration: none;
-    border: 1px solid white;
-    border-radius: 100%;
-    width: 42px;
-    height: 42px;
-    line-height: 42px;
-    margin: 5px 5px;
-    font-size: 20px;
-    transition: .3s;
-}
-
-footer .arriba {
-    display: block;
-    width: 50px;
-    height: 50px;
-    background-color: #5FBBBF;
-    border: 1px solid white;
-    color: #fff;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: -10%;
-    border-radius: 50px;
-    line-height: 50px;
-    font-size: 18px;
-}
 
 
 
