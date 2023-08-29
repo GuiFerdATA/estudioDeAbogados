@@ -228,6 +228,7 @@ header nav ul li a:hover {
 .container_servicios h3{
     text-align: center;
     margin-top: 35px;
+    margin-bottom: 50px;
     font-size: 80px;
     animation: teclear 3s steps(70) infinite;
 }
@@ -239,7 +240,8 @@ header nav ul li a:hover {
 }
 .parrafoServicios {
     text-align: center;
-    margin-top:25px ;
+    margin-top:25px;
+    margin-bottom: 130px;
     font-size: 23px;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.05em;
