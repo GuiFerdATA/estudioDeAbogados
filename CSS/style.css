@@ -357,6 +357,9 @@ div [class^="col-"] {
 
 
     /*SECCION NAV*/
+    .contenedor-header header{
+        justify-content: space-between;
+    }
     nav {
         display: none;
     }
