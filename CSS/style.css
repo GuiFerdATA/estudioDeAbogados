@@ -87,7 +87,7 @@ header nav ul li a:hover {
     background-image: url('../IMG/fondo1.jpg');
     background-position: center center;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
     scroll-margin-top: 45em;
 }
 
@@ -149,6 +149,7 @@ header nav ul li a:hover {
 
 /*--- SECTION 2 ---*/
 .pantalla-dividida {
+    height: 85vh;
     scroll-margin-top: 5em;
     display: flex;
 }
@@ -159,7 +160,7 @@ header nav ul li a:hover {
 
 
 .izquierda {
-    height: 100vh;
+
     background: rgb(95, 187, 191);
     background: linear-gradient(103deg, rgba(95, 187, 191, 1) 72%, rgba(0, 0, 0, 1) 100%);
     width: 50%;
@@ -228,7 +229,7 @@ header nav ul li a:hover {
 }
 
 .container_servicios {
-    height: 100vh;
+    height: 70vh;
     width: 50%;
     background-color: white;
 }
