@@ -87,7 +87,7 @@ header nav ul li a:hover {
     background-image: url('../IMG/fondo1.jpg');
     background-position: center center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100% 100%;
     scroll-margin-top: 45em;
 }
 
@@ -188,10 +188,8 @@ header nav ul li a:hover {
 .derecha {
     background-image: url('../IMG/escala-carrera_1098-16679.avif');
     background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
+    background-size: 100% 100%;
     width: 50%;
-    height: 100vh;
 }
 
 .capa2 {
@@ -354,7 +352,7 @@ div [class^="col-"] {
 
 
 /*--- MEDIA QUERYS ---*/
-@media screen and (max-width: 1509px) {
+@media screen and (max-width:897px) {
 
 
     /*SECCION NAV*/
