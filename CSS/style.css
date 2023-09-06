@@ -120,7 +120,7 @@ header nav ul li a:hover {
     font-size: 100px;
     letter-spacing: 0.05em;
     text-decoration: none;
-    animation: teclear 4s steps(100) alternate-reverse infinite;
+    animation: teclear 2.3s steps(100) alternate-reverse infinite;
 }
 
 .sub_tittle {
@@ -162,8 +162,9 @@ header nav ul li a:hover {
 
 
 .izquierda {
-    background: rgb(95, 187, 191);
-    background: linear-gradient(103deg, rgba(95, 187, 191, 1) 72%, rgba(0, 0, 0, 1) 100%);
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,237,237,1) 25%, rgba(76,164,164,1) 100%);
+    
     width: 50%;
 }
 
@@ -205,10 +206,10 @@ header nav ul li a:hover {
 }
 
 .buttonQuienesSomos {
-    border: 1px solid antiquewhite;
+    border: 1px solid rgb(51, 184, 184);
     padding: 20px;
     text-decoration: none;
-    color: #ffffff;
+    color:  rgb(54, 206, 211);
     border-radius: 30px;
     font-weight: bold;
     letter-spacing: 0.2em;
