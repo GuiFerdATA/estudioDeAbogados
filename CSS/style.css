@@ -175,9 +175,9 @@ header nav ul li a:hover {
 }
 
 .izquierda p {
-    font-size: 24px;
+    font-size: 28px;
     line-height: 30px;
-    width: 90%;
+    width: 50%;
     margin: auto;
     margin-bottom: 45px;
     text-align: center;
@@ -191,7 +191,7 @@ header nav ul li a:hover {
     background-image: url('../IMG/mano mano mano.avif');
     background-attachment: fixed;
     background-size: 100% 100%;
-    width:50%;
+    width: 50%;
 }
 
 .capa2 {
@@ -200,7 +200,7 @@ header nav ul li a:hover {
     left: 50%;
     width: 50%;
     height: 100%;
-    background-color:#18d4ca;
+    background-color: #18d4ca;
     opacity: 0.2;
 }
 
@@ -348,54 +348,6 @@ div [class^="col-"] {
     text-align: center;
 }
 
-.g-container {
-    position: relative;
-    font-family: monospace;
-    color: rgb(255, 255, 255);
-    font-size: 4em;
-    filter: contrast(15);
-}
-
-.word {
-  position: absolute;
-  top: 1450%;
-  left: 1150%;
-  transform: translate(-50%, -50%);
-  animation: switch 8s infinite ease-in-out;
-  min-width: 100%;
-  margin: auto;
-}
-
-.word:nth-child(1) {
-    animation-delay: -7s;
-}
-
-.word:nth-child(2) {
-    animation-delay: -6s;
-}
-
-.word:nth-child(3) {
-    animation-delay: -5s;
-}
-
-@keyframes switch {
-
-    0%,
-    5%,
-    100% {
-      filter: blur(0px);
-      opacity: 1;
-    }
-
-    50%,
-    80% {
-      filter: blur(180px);
-      opacity: 0;
-    }
-}
-
-
-
 
 
 
@@ -409,8 +361,8 @@ div [class^="col-"] {
     }
 
     .izquierda p {
-        font-size: 20px;
-        width: 95%;
+        font-size: 27.5px;
+        width: 50%;
         line-height: 3.5rem;
     }
 }
@@ -423,9 +375,10 @@ div [class^="col-"] {
 
 
     /*SECCION NAV*/
-    .contenedor-header header{
+    .contenedor-header header {
         justify-content: space-between;
     }
+
     nav {
         display: none;
     }
@@ -460,14 +413,14 @@ div [class^="col-"] {
 
     .pantalla-dividida {
         flex-direction: column;
-         height:100vh;
+        height: 100vh;
     }
 
     .izquierda {
         width: auto;
-        height:50vh;
+        height: 50vh;
         white-space: break-word;
-    
+
     }
 
     .derecha {
@@ -488,9 +441,9 @@ div [class^="col-"] {
     }
 
     .izquierda p {
-        font-size: 20px;
+        font-size: 27.5px;
         margin-top: 5px;
-        width: 100%;
+        width: 70%;
         line-height: 1.9rem;
     }
 
@@ -504,18 +457,20 @@ div [class^="col-"] {
         position: relative;
         width: 100%;
     }
+
     .container_servicios h3 {
         font-size: 50px;
         margin-top: 20px;
     }
 
-    .row{
+    .row {
         width: 90%;
     }
-    .link2{
+
+    .link2 {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
+
 }
