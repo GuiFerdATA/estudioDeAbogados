@@ -230,7 +230,7 @@ header nav ul li a:hover {
 
 .container_servicios {
     height: 70vh;
-    width: 50%;
+    width: 45%;
     background-color: white;
 }
 
@@ -347,6 +347,11 @@ div [class^="col-"] {
 .row a {
     margin-top: 50px;
     text-align: center;
+}
+
+.section_profesionales{
+height: 100vh;
+background-color: #5FBBBF;
 }
 
 
