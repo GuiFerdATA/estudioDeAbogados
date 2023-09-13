@@ -152,7 +152,7 @@ header nav ul li a:hover {
 /*--- SECTION 2 ---*/
 .container_QuienesSomos {
     height: 100vh;
-    scroll-margin-top: 10.5em;
+    scroll-margin-top: 2.5em;
     display: flex;
     background-color: #ffffff;
 }
