@@ -120,7 +120,7 @@ header nav ul li a:hover {
     font-size: 100px;
     letter-spacing: 0.05em;
     text-decoration: none;
-    animation: teclear 2.3s steps(100) alternate-reverse infinite;
+    animation: teclear 3s steps(100)  infinite;
 }
 
 .sub_tittle {
@@ -152,20 +152,21 @@ header nav ul li a:hover {
 /*--- SECTION 2 ---*/
 .container_QuienesSomos {
     height: 100vh;
-    scroll-margin-top: 21.5em;
+    scroll-margin-top: 10.5em;
     display: flex;
-    background-color: rgb(254, 251, 247);
+    background-color: #ffffff;
 }
 
 .img_quienesSomos{
-    width: 1000px;
+    width: 1300px;
     height: 700px;
     display:flex;
     margin:0 auto;
     margin-bottom: 50px;
     margin-top: 100px;
+    border-radius: 24% 76% 67% 33% / 75% 74% 26% 25%;
+    border:4px solid  #18d4ca;
 }
-
 .span_quinesSomos{
 color:#5FBBBF;
 }
@@ -176,6 +177,7 @@ color:#5FBBBF;
     display:flex;
     margin:0 auto;
     font-size: 23px;
+    text-align: center;
 }
 
 .animationh2 {
@@ -209,14 +211,13 @@ color:#5FBBBF;
     scroll-margin-top: 5.9em;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
+    background-color: #F4F6F6;
 }
 
 .container_servicios {
     height: 100vh;
     width: 46%;
-    background-color: white;
 }
 
 .container_servicios h3 {
@@ -228,11 +229,11 @@ color:#5FBBBF;
 }
 
 .serviciosSpan {
-    color: #000000;
+    color: #5FBBBF;
 }
 
 .serviciosSpanS {
-    color: #5FBBBF;
+    color:#000000;
 }
 
 .parrafoServicios {
@@ -268,6 +269,7 @@ div [class^="col-"] {
 .card {
     transition: 0.5s;
     cursor: pointer;
+    background-color: #F4F6F6;
 }
 
 .card-title {
@@ -336,7 +338,7 @@ div [class^="col-"] {
 
 .section_profesionales{
 height: 100vh;
-background-color: #5FBBBF;
+background-color:#ffffff;
 }
 
 
@@ -348,8 +350,8 @@ background-color: #5FBBBF;
 
   @media screen and (max-width: 1131px){
     .img_quienesSomos{
-        width: 700px;
-        height: 600px;
+        width: 650px;
+        height: 450px;
         margin-bottom: 50px;
         margin-top: 50px;
     }
