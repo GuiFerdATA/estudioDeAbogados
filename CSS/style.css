@@ -220,7 +220,7 @@ header nav ul li a:hover {
 
 .container_servicios {
     height: 100vh;
-    width: 46%;
+    width: 50%;
 }
 
 .container_servicios h3 {
@@ -242,7 +242,7 @@ header nav ul li a:hover {
 .parrafoServicios {
     text-align: center;
     margin-top: 25px;
-    margin-bottom: 130px;
+    margin-bottom: 40px;
     font-size: 23px;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.05em;
@@ -336,14 +336,13 @@ div [class^="col-"] {
 }
 
 .row a {
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
 }
 
 .section_profesionales {
     height: 100vh;
-    background: rgb(95, 187, 191);
-    background: linear-gradient(87deg, rgba(95, 187, 191, 1) 0%, rgba(255, 255, 255, 1) 100%);
+background: #ffffff;
 
 }
 
@@ -357,7 +356,6 @@ div [class^="col-"] {
         width: 80%;
     }
 }
-
 
 @media screen and (max-width: 1131px) {
     .img_quienesSomos {
