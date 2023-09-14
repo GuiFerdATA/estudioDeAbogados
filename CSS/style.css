@@ -120,13 +120,14 @@ header nav ul li a:hover {
     font-size: 100px;
     letter-spacing: 0.05em;
     text-decoration: none;
-    animation: teclear 3s steps(100) infinite;
+
 }
 
 .sub_tittle {
     font-size: 35px;
     font-family: 'Dancing Script', cursive;
     letter-spacing: 0.05em;
+    animation: teclear 3.5s steps(100) ;
 }
 
 @keyframes teclear {
