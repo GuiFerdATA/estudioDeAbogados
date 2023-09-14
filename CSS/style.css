@@ -210,12 +210,12 @@ header nav ul li a:hover {
 
 /*SECTION SERVICIOS*/
 .contenedor-servicios {
-    scroll-margin-top: 3.5em;
+    scroll-margin-top: 10em;
     display: flex;
     justify-content: center;
     align-items: center;
     background: rgb(255, 255, 255);
-    background: radial-gradient(circle, rgba(255, 255, 255, 1) 15%, rgba(95, 187, 191, 1) 97%);
+    background: linear-gradient(356deg, rgba(255, 255, 255, 1) 19%, rgba(95, 187, 191, 1) 100%, rgba(95, 187, 191, 1) 100%);
 }
 
 .container_servicios {
@@ -273,7 +273,8 @@ div [class^="col-"] {
     transition: 0.5s;
     cursor: pointer;
     background: rgb(255, 255, 255);
-    background: radial-gradient(circle, rgba(255, 255, 255, 1) 44%, rgba(197, 234, 236, 1) 98%);
+    background: linear-gradient(356deg, rgba(255, 255, 255, 1) 19%, rgba(95, 187, 191, 1) 100%, rgba(95, 187, 191, 1) 100%);
+
 }
 
 .card-title {
@@ -314,7 +315,8 @@ div [class^="col-"] {
     left: 0;
     transform: scale3d(0, 0, 1);
     transition: transform .3s ease-out 0s;
-    background: #ffffff;
+    background: rgb(148, 193, 195);
+    background: radial-gradient(circle, rgba(148, 193, 195, 1) 81%, rgba(255, 255, 255, 1) 100%);
     opacity: 0.10;
     content: '';
     pointer-events: none;
@@ -342,14 +344,16 @@ div [class^="col-"] {
 
 .section_profesionales {
     height: 100vh;
-    background-color: #ffffff;
+    background: rgb(95, 187, 191);
+    background: linear-gradient(87deg, rgba(95, 187, 191, 1) 0%, rgba(255, 255, 255, 1) 100%);
+
 }
 
 
 
 /*--- MEDIA QUERYS ---*/
 
-@media screen and (max-width: 1448px){
+@media screen and (max-width: 1448px) {
     .contenido_quienesSomos p {
         font-size: 21px;
         width: 80%;
