@@ -271,7 +271,6 @@ div [class^="col-"] {
 
 .card {
     transition: 0.5s;
-    cursor: pointer;
     background: rgb(255, 255, 255);
     background: linear-gradient(356deg, rgba(255, 255, 255, 1) 19%, rgba(95, 187, 191, 1) 100%, rgba(95, 187, 191, 1) 100%);
 
@@ -280,7 +279,6 @@ div [class^="col-"] {
 .card-title {
     font-size: 15px;
     transition: 1s;
-    cursor: pointer;
 }
 
 
