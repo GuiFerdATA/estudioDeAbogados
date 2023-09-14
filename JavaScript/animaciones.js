@@ -12,9 +12,15 @@ window.sr =ScrollReveal();
         distance: '-100px',
     });
     sr.reveal('.contenido_quienesSomos', {
-        duration: 2100,
+        duration: 2000,
         origin:'right',
-        distance: '-100px',
+        distance: '-200px',
+        reset: true,
+    });
+    sr.reveal('.tittle_h2', {
+        duration: 2700,
+        origin:'left',
+        distance: '200px',
         reset: true,
     });
     sr.reveal('.parrafo_quienesSomos', {
