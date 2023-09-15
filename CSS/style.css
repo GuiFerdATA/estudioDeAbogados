@@ -58,6 +58,7 @@ html {
 
 .contenedor-header header nav ul li a {
     text-align: none;
+    font-size: 19px;
     color: #000000;
     margin: 0 15px;
     padding: 3px;
