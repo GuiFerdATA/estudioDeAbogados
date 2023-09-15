@@ -479,11 +479,12 @@ background: #ffffff;
         flex: 0 0 auto;
         width: 50%;
     }
+    .row img {
+        height:100px;
+        width: 100%;
+    }
 }
-.row img {
-    height:100px;
-    width: 100%;
-}
+
 
 @media screen and (max-width:519px){
     .contenido_sectionInicio h1 {
