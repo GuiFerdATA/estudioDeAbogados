@@ -467,26 +467,26 @@ background: #ffffff;
         font-size: 30px;
     }
     .contenido_quienesSomos h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
     .img_quienesSomos {
         width: 300px;
-        height: 300px;
-        margin-bottom: 70px;
-        margin-top: 37px;
+        height: 200px;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
     .contenido_quienesSomos p {
-        font-size: 19px;
+        font-size: 12px;
         width: 90%;
     }
 
     .container_servicios h3 {
-        font-size: 40px;
+        font-size: 30px;
         margin-top: 5px;
         margin-bottom: 0px;
     }
     .parrafoServicios{
-        font-size: 19px;
+        font-size: 12px;
         margin: 12px 12px;
 
     }
