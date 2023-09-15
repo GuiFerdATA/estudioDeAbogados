@@ -525,13 +525,12 @@ background: #ffffff;
 
     .container_servicios h3 {
         font-size: 30px;
-        margin-top: px;
-        margin-bottom: 0px;
+        margin-top:20px;
+
     }
     .parrafoServicios{
         font-size: 16px;
-   
-
+        margin-top: 10px;
     }
     .col-sm-6 {
         flex: 0 0 auto;
@@ -539,14 +538,22 @@ background: #ffffff;
 
     }
     .card-title {
-        font-size: 10px;
+        font-size: 13px;
     }
     .card-text {
         height: 70px;
-        font-size: 10px;
+        font-size: 12px;
     }
     .row a{
-        margin-top: 0px;
+        margin-top: 10px;
         font-size: 10px;
+    }
+
+    .parrafoServicios{
+        letter-spacing: 0em;
+    }
+    .row img {
+        height:50px;
+        width: 100%;
     }
 }
