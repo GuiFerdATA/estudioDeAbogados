@@ -430,3 +430,52 @@ background: #ffffff;
     }
 
 }
+@media screen and (max-width: 439px) {
+    .contenedor-header header .logo {
+        padding: 10px;
+    }
+    
+    .contenedor-header header .logo a {
+        font-size: 20px;
+    }
+    nav.responsive {
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 96px;
+        background-color: #1E2D3B;
+        width: 200px;
+    }
+    .contenido_sectionInicio h1 {
+        font-size: 40px;
+    }
+    .sub_tittle{
+        font-size: 30px;
+    }
+    .contenido_quienesSomos h2 {
+        font-size: 40px;
+    }
+    .img_quienesSomos {
+        width: 300px;
+        height: 400px;
+        margin-bottom: 70px;
+        margin-top: 37px;
+    }
+    .contenido_quienesSomos p {
+        font-size: 19px;
+        width: 90%;
+    }
+
+    .container_servicios h3 {
+        font-size: 40px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .parrafoServicios{
+        font-size: 19px;
+        margin: 12px 12px;
+
+    }
+
+
+}
