@@ -460,13 +460,13 @@ background: #ffffff;
         font-size: 16px;
     }
     .container_servicios h3 {
-        font-size: 30px;
-        margin-top: 15px;
-        margin-bottom: 15px;
+        font-size: 40px;
+        margin-top: 1px;
+        margin-bottom:1px;
     }
     .parrafoServicios{
-        font-size: 12px;
-        margin: 12px 12px;
+        font-size: 16px;
+        margin: 1px 1px;
     }
     .row a {
         margin-top: 0px;
