@@ -448,16 +448,16 @@ background: #ffffff;
     }
     .contenido_quienesSomos h2 {
         font-size: 40px;
-        margin-bottom: 15px;
+        margin-bottom: 65px;
     }
     .img_quienesSomos {
-        width: 400px;
-        height: 300px;
+        width: 500px;
+        height: 350px;
         margin-bottom: 55px;
         margin-top: 10px;
     }
     .contenido_quienesSomos p {
-        font-size: 16px;
+        font-size: 17px;
     }
     .container_servicios h3 {
         font-size: 40px;
@@ -465,11 +465,12 @@ background: #ffffff;
         margin-bottom:1px;
     }
     .parrafoServicios{
-        font-size: 16px;
+        font-size: 17px;
         margin: 1px 1px;
+        margin-bottom:10px;
     }
     .row a {
-        margin-top: 0px;
+        margin-top: 10px;
         text-align: center;
         color: #A7A9DC;
     }
