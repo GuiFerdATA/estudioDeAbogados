@@ -2,7 +2,7 @@ window.sr =ScrollReveal();
 
 
     sr.reveal('.contenedor-header', {
-        duration: 2000,
+        duration: 1000,
         origin:'bottom',
         distance: '-100px',
     });
@@ -10,6 +10,7 @@ window.sr =ScrollReveal();
         duration: 2500,
         origin:'right',
         distance: '-100px',
+        reset: true,
     });
     sr.reveal('.contenido_quienesSomos', {
         duration: 2000,
@@ -18,7 +19,7 @@ window.sr =ScrollReveal();
         reset: true,
     });
     sr.reveal('.tittle_h2', {
-        duration: 2700,
+        duration: 3700,
         origin:'left',
         distance: '200px',
         reset: true,
