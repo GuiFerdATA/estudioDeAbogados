@@ -552,10 +552,10 @@ background: #ffffff;
         font-size: 12px;
     }
     .mb-3{
-        margin-top: 10px!important;
+        margin-top: 5px!important;
     }
     .mt-3{
-        margin-top: 10px!important;
+        margin-top: 5px!important;
     }
     .row a{
         margin-top: 10px;
@@ -566,7 +566,7 @@ background: #ffffff;
         letter-spacing: 0em;
     }
     .row img {
-        height:70px;
+        height:85px;
         width: 100%;
     }
 }
