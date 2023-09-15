@@ -10,15 +10,7 @@ window.sr =ScrollReveal();
         duration: 1500,
         origin:'right',
         distance: '-100px',
-        reset: true,
     });
-    sr.reveal('.tittle_h3', {
-        duration: 1500,
-        origin:'left',
-        distance: '-100px',
-        reset: true,
-    });
-
     sr.reveal('.tittle_h2', {
         duration: 2500,
         origin:'left',
@@ -31,6 +23,11 @@ window.sr =ScrollReveal();
         distance: '-100px',
         reset: true,
     });
-
+    sr.reveal('.tittle_h3', {
+        duration: 1500,
+        origin:'right',
+        distance: '-100px',
+        reset: true,
+    });
 
     
