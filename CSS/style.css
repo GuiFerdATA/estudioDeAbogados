@@ -127,7 +127,7 @@ header nav ul li a:hover {
     font-size: 35px;
     font-family: 'Dancing Script', cursive;
     letter-spacing: 0.05em;
-    animation: teclear 3.5s steps(100) ;
+    animation: teclear 5s steps(100) ;
 }
 
 @keyframes teclear {
@@ -204,8 +204,7 @@ header nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(356deg, rgba(255, 255, 255, 1) 19%, rgba(95, 187, 191, 1) 100%, rgba(95, 187, 191, 1) 100%);
+    background-color: #E6F4F1;
 }
 
 .container_servicios {
@@ -218,11 +217,10 @@ header nav ul li a:hover {
     margin-top: 35px;
     margin-bottom: 50px;
     font-size: 80px;
-    animation: teclear 3s steps(70) infinite;
 }
 
 .serviciosSpan {
-    color: #ffffff;
+    color:#5FBBBF;
 }
 
 .serviciosSpanS {
@@ -261,8 +259,8 @@ div [class^="col-"] {
 
 .card {
     transition: 0.5s;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(356deg, rgba(255, 255, 255, 1) 19%, rgba(95, 187, 191, 1) 100%, rgba(95, 187, 191, 1) 100%);
+   background-color: #E6F4F1;
+
 
 }
 
@@ -284,13 +282,12 @@ div [class^="col-"] {
 .card-title i {
     font-size: 15px;
     transition: 1s;
-    cursor: pointer;
-    color: #5FBBBF;
+    color:#5FBBBF;
 }
 
 .card-title i:hover {
     transform: scale(1.25) rotate(100deg);
-    color: #18d4ca;
+    color:#A7A9DC;
 
 }
 
@@ -303,8 +300,7 @@ div [class^="col-"] {
     left: 0;
     transform: scale3d(0, 0, 1);
     transition: transform .3s ease-out 0s;
-    background: rgb(148, 193, 195);
-    background: radial-gradient(circle, rgba(148, 193, 195, 1) 81%, rgba(255, 255, 255, 1) 100%);
+    background-color:#A7A9DC;
     opacity: 0.10;
     content: '';
     pointer-events: none;
@@ -328,6 +324,7 @@ div [class^="col-"] {
 .row a {
     margin-top: 30px;
     text-align: center;
+    color: #A7A9DC;
 }
 
 .section_profesionales {
