@@ -505,7 +505,7 @@ background: #ffffff;
         font-size: 40px;
     }
     .sub_tittle{
-        font-size: 30px;
+        font-size: 15px;
     }
     .contenido_quienesSomos h2 {
         font-size: 40px;
@@ -524,17 +524,18 @@ background: #ffffff;
 
     .container_servicios h3 {
         font-size: 30px;
-        margin-top: 5px;
+        margin-top: px;
         margin-bottom: 0px;
     }
     .parrafoServicios{
-        font-size: 12px;
-        margin: 12px 12px;
+        font-size: 16px;
+   
 
     }
     .col-sm-6 {
         flex: 0 0 auto;
         width: 50%;
+
     }
 
 }
