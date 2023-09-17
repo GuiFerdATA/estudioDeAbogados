@@ -579,6 +579,10 @@ background: #ffffff;
         font-size: 30px;
         margin-top: 10px;
     }
+    .contenido_quienesSomos p{
+        font-size: 14px;
+        margin-top: 10px;
+    }
     .img_quienesSomos {
         width: 250px;
         height: 150px;
@@ -586,9 +590,12 @@ background: #ffffff;
         margin-top: 1px;
     }
     .container_servicios h3 {
-        font-size: 25px;
-        margin-top: 20px;
-        margin-bottom:10px;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .parrafoServicios{
+        font-size: 14px;
+        margin-top: 10px;
     }
     .row a {
         margin-top: 5px;
@@ -600,14 +607,16 @@ background: #ffffff;
         width: 25%;
     }
     .row img {
-        height:40px;
+        height:30px;
         width: 100%;
     }
     .card-title {
-        font-size: 10px;
+        font-size: 9px;
+        margin-bottom: 1px!important;
     }
     .card-text {
         height: 50px;
-        font-size:9px;
+        font-size:8px;
     }
+
 }
