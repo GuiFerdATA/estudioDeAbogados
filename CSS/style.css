@@ -571,7 +571,7 @@ background: #ffffff;
     }
 }
 
-@media (min-width:320px) and (max-height:598px) {
+@media (min-width:316px) and (max-height:938px) {
     .contenido_sectionInicio h1 {
         font-size: 30px;
     }
@@ -586,7 +586,7 @@ background: #ffffff;
         margin-top: 1px;
     }
     .container_servicios h3 {
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 20px;
         margin-bottom:10px;
     }
