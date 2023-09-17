@@ -570,3 +570,44 @@ background: #ffffff;
         width: 100%;
     }
 }
+
+@media (min-width:394px) and (min-height:598px) {
+    .contenido_sectionInicio h1 {
+        font-size: 30px;
+    }
+    .contenido_quienesSomos h2 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .img_quienesSomos {
+        width: 250px;
+        height: 150px;
+        margin-bottom: 1px;
+        margin-top: 1px;
+    }
+    .container_servicios h3 {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom:10px;
+    }
+    .row a {
+        margin-top: 5px;
+        text-align: center;
+        color: #A7A9DC;
+    }
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+    .row img {
+        height:40px;
+        width: 100%;
+    }
+    .card-title {
+        font-size: 10px;
+    }
+    .card-text {
+        height: 50px;
+        font-size:9px;
+    }
+}
