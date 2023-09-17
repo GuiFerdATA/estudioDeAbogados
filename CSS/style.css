@@ -571,7 +571,7 @@ background: #ffffff;
     }
 }
 
-@media (min-width:316px) and (max-height:938px) {
+@media (min-width:316px) and (max-height:850px) {
     .contenido_sectionInicio h1 {
         font-size: 30px;
     }
