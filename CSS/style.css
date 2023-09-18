@@ -128,7 +128,7 @@ header nav ul li a:hover {
     font-size: 35px;
     font-family: 'Dancing Script', cursive;
     letter-spacing: 0.05em;
-    animation: teclear 5s steps(100) ;
+    animation: teclear 5s steps(100);
 }
 
 @keyframes teclear {
@@ -221,7 +221,7 @@ header nav ul li a:hover {
 }
 
 .serviciosSpan {
-    color:#5FBBBF;
+    color: #5FBBBF;
 }
 
 .serviciosSpanS {
@@ -260,7 +260,7 @@ div [class^="col-"] {
 
 .card {
     transition: 0.5s;
-   background-color: #E6F4F1;
+    background-color: #E6F4F1;
 
 
 }
@@ -283,12 +283,12 @@ div [class^="col-"] {
 .card-title i {
     font-size: 15px;
     transition: 1s;
-    color:#5FBBBF;
+    color: #5FBBBF;
 }
 
 .card-title i:hover {
     transform: scale(1.25) rotate(100deg);
-    color:#A7A9DC;
+    color: #A7A9DC;
 
 }
 
@@ -301,7 +301,7 @@ div [class^="col-"] {
     left: 0;
     transform: scale3d(0, 0, 1);
     transition: transform .3s ease-out 0s;
-    background-color:#A7A9DC;
+    background-color: #A7A9DC;
     opacity: 0.10;
     content: '';
     pointer-events: none;
@@ -330,7 +330,7 @@ div [class^="col-"] {
 
 .section_profesionales {
     height: 100vh;
-background: #ffffff;
+    background: #ffffff;
 
 }
 
@@ -338,11 +338,34 @@ background: #ffffff;
 
 /*--- MEDIA QUERYS ---*/
 
-@media screen and (max-width: 1448px) {
+@media screen and (max-width: 2560px) {
+    .contenido_quienesSomos h2 {
+        font-size: 65px;
+        margin-top: 10px;
+    }
+    .img_quienesSomos{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 900px;
+        height: 500px;
+    }
     .contenido_quienesSomos p {
         font-size: 21px;
         width: 80%;
     }
+
+    .contenedor-servicios h3 {
+        font-size: 65px;
+        margin-bottom: 5px;
+    }
+
+    .parrafoServicios {
+        font-size: 21px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+    }
+
 }
 
 @media screen and (max-width:1250px) {
@@ -412,94 +435,133 @@ background: #ffffff;
 }
 
 
-@media screen and (max-width: 1131px) {
+
+
+
+
+@media screen and (min-width:684px) and (max-width:1036px){
+    .img_quienesSomos{
+        width: 600px;
+        height: 350px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:684px) {
+    .contenido_sectionInicio h1 {
+        font-size: 70px;
+    }
+    .sub_tittle{
+        font-size: 21px;
+    }
+
+    .contenido_quienesSomos h2 {
+        font-size: 50px;
+    }
+
     .img_quienesSomos {
-        width: 650px;
-        height: 450px;
-        margin-bottom: 40px;
-        margin-top: 120px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        height: 350px;
     }
 
     .contenido_quienesSomos p {
-        font-size: 24px;
-        width: 80%;
+        font-size: 19px;
     }
 
-    .animationh2 {
-        margin-top: 30px;
-        font-size: 60px;
-
+    .contenedor-servicios h3 {
+        font-size: 50px;
+        margin-top: 15px;
+        margin-bottom: 5px;
     }
-}
 
-@media screen and (max-width:684px){
-    .contenido_sectionInicio h1 {
-        font-size: 65px;
+    .parrafoServicios {
+        font-size: 19px;
+        margin-top: 5px;
     }
+
     .col-sm-6 {
         flex: 0 0 auto;
-        width: 50%;
+        width: 25%;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    .row img {
+        height: 70px;
+        width: 100%;
     }
 
 }
-@media screen and (max-width:595px){
+@media screen and (max-width:595px) {
     .contenido_sectionInicio h1 {
         font-size: 60px;
     }
+    .sub_tittle{
+        font-size: 21px;
+    }
+
     .contenido_quienesSomos h2 {
         font-size: 40px;
-        margin-bottom: 65px;
+        margin-bottom: 25px;
     }
+
     .img_quienesSomos {
         width: 500px;
         height: 350px;
-        margin-bottom: 55px;
+
         margin-top: 10px;
     }
+
     .contenido_quienesSomos p {
         font-size: 17px;
     }
+
     .container_servicios h3 {
         font-size: 40px;
         margin-top: 20px;
-        margin-bottom:10px;
+        margin-bottom: 10px;
     }
-    .parrafoServicios{
+
+    .parrafoServicios {
         font-size: 17px;
         margin: 1px 1px;
-        margin-bottom:20px;
+        margin-bottom: 20px;
 
     }
+
     .row a {
         margin-top: 20px;
         text-align: center;
         color: #A7A9DC;
     }
+
     .col-sm-6 {
         flex: 0 0 auto;
         width: 50%;
     }
+
     .row img {
-        height:70px;
+        height: 70px;
         width: 100%;
     }
 }
 
-
-@media screen and (max-width:519px){
-    .contenido_sectionInicio h1 {
-        font-size: 50px;
-    }
-}
-
-@media screen and (max-width: 439px)   {
+@media screen and (max-width: 439px) {
     .contenedor-header header .logo {
         padding: 10px;
     }
-    
+
     .contenedor-header header .logo a {
         font-size: 20px;
     }
+
     nav.responsive {
         display: block;
         position: absolute;
@@ -508,22 +570,27 @@ background: #ffffff;
         background-color: #1E2D3B;
         width: 200px;
     }
+
     .contenido_sectionInicio h1 {
         font-size: 45px;
     }
-    .sub_tittle{
+
+    .sub_tittle {
         font-size: 20px;
     }
+
     .contenido_quienesSomos h2 {
         font-size: 45px;
-        margin-bottom:10px;
+        margin-bottom: 10px;
     }
+
     .img_quienesSomos {
         width: 400px;
         height: 350px;
         margin-bottom: 0px;
         margin-top: 0px;
     }
+
     .contenido_quienesSomos p {
         font-size: 16px;
         width: 90%;
@@ -532,41 +599,49 @@ background: #ffffff;
 
     .container_servicios h3 {
         font-size: 45px;
-        margin-top:20px;
+        margin-top: 20px;
 
     }
-    .parrafoServicios{
+
+    .parrafoServicios {
         font-size: 16px;
         margin-top: 10px;
     }
+
     .col-sm-6 {
         flex: 0 0 auto;
         width: 50%;
 
     }
+
     .card-title {
         font-size: 13px;
     }
+
     .card-text {
         height: 50px;
         font-size: 12px;
     }
-    .mb-3{
-        margin-top: 5px!important;
+
+    .mb-3 {
+        margin-top: 5px !important;
     }
-    .mt-3{
-        margin-top: 5px!important;
+
+    .mt-3 {
+        margin-top: 5px !important;
     }
-    .row a{
+
+    .row a {
         margin-top: 10px;
         font-size: 10px;
     }
 
-    .parrafoServicios{
+    .parrafoServicios {
         letter-spacing: 0em;
     }
+
     .row img {
-        height:85px;
+        height: 85px;
         width: 100%;
     }
 }
@@ -575,11 +650,13 @@ background: #ffffff;
     .contenido_sectionInicio h1 {
         font-size: 35px;
     }
+
     .contenido_quienesSomos h2 {
         font-size: 30px;
         margin-top: 10px;
     }
-    .contenido_quienesSomos p{
+
+    .contenido_quienesSomos p {
         font-size: 14px;
         margin-top: 10px;
     }
@@ -588,41 +665,48 @@ background: #ffffff;
         font-size: 30px;
         margin-top: 10px;
     }
-    .parrafoServicios{
+
+    .parrafoServicios {
         font-size: 14px;
         margin-top: 10px;
     }
+
     .row a {
         margin-top: 5px;
         text-align: center;
         color: #A7A9DC;
     }
+
     .col-sm-6 {
         flex: 0 0 auto;
         width: 25%;
     }
+
     .row img {
-        height:30px;
+        height: 30px;
         width: 100%;
     }
+
     .card-title {
         font-size: 9px;
-        margin-bottom: 1px!important;
+        margin-bottom: 1px !important;
     }
+
     .card-text {
         height: 50px;
-        font-size:8px;
+        font-size: 8px;
     }
 
 }
-@media (min-width:316px) and (max-height:737px){
+
+@media (min-width:316px) and (max-height:737px) {
     .img_quienesSomos {
         width: 300px;
         height: 250px;
     }
+
     .col-sm-6 {
         flex: 0 0 auto;
         width: 25%;
     }
 }
-
