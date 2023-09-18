@@ -427,6 +427,7 @@ div [class^="col-"] {
 
     .contenido_quienesSomos p {
         font-size: 19px;
+        width: 98%;
     }
 
     .contenedor-servicios h3 {
@@ -461,6 +462,9 @@ div [class^="col-"] {
         height: 350px;
         margin-bottom: 20px;
     }
+    .contenido_quienesSomos p{
+        width: 99%;
+    }
 }
 @media screen and (max-width:595px) {
     .contenido_sectionInicio h1 {
@@ -484,6 +488,7 @@ div [class^="col-"] {
 
     .contenido_quienesSomos p {
         font-size: 17px;
+        width: 99%;
     }
 
     .container_servicios h3 {
@@ -555,7 +560,7 @@ div [class^="col-"] {
 
     .contenido_quienesSomos p {
         font-size: 16px;
-        width: 90%;
+        width: 98%;
         margin-top: 10px;
     }
 
