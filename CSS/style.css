@@ -497,11 +497,21 @@ div [class^="col-"] {
     .contenido_quienesSomos h2{
         margin-top: 10px;
     }
+
     /*servicios*/
     .container_servicios {
         width: 90%;
     }
 }
+@media only screen and (min-width: 1024px) {
+
+    .contenido_quienesSomos p{
+        width: 80%;
+    }
+    .img_quienesSomos{
+        height: 650px;
+    }
+  }
 
 
 
