@@ -17,7 +17,7 @@ window.sr =ScrollReveal();
         distance: '100px',
         reset: true,
         delay: 100,
-    });
+    });    
     sr.reveal('.parrafo_quienesSomos', {
         duration: 2000,
         origin:'left',
