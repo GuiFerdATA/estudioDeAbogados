@@ -335,17 +335,12 @@ div [class^="col-"] {
 
 /*--- MEDIA QUERYS ---*/
 
-@media only screen and (min-width: 1024px) and (max-width:1629px){
-    .img_quienesSomos{
-        width: 800px;
-        height: 400px;
-    }
-    .contenido_quienesSomos p{
-        width: 90%;
-    }
+
+
+
+@media only screen and (max-width:1280px) and (max-height:800px){
+
 }
-
-
 
 /*Nest Hub Max*/
 @media only screen and (max-width:1280px) and (max-height:800px){
@@ -358,6 +353,38 @@ div [class^="col-"] {
         margin-top: 5px;
     }
 }
+
+/*portatil sam*/
+@media only screen and (max-width:1114px) and (max-height:606px){
+    .contenido_sectionInicio h1{
+        font-size: 48px;
+    }
+    .contenido_quienesSomos h2{
+        font-size: 38px;
+    }
+    .img_quienesSomos{
+        width: 600px;
+        height: 300px;
+    }
+    .contenido_quienesSomos p{
+        font-size: 17px;
+        width: 90%;
+    }
+    .container_servicios h3{
+        font-size: 38px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .parrafoServicios{
+        font-size: 19px;
+        margin-bottom: 5px;
+    }
+    .row img {
+        height: 50px;
+        width: 100%;
+    }
+}
+
 /*Nest hub*/
 @media only screen and (max-width:1024px) and (max-height:600px){
 
