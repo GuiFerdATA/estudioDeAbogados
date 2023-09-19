@@ -511,7 +511,7 @@ div [class^="col-"] {
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 319px) {
      /*nav*/
      nav {
         display: none;
