@@ -379,17 +379,17 @@ div [class^="col-"] {
     .container_QuienesSomos h2 {
         font-size: 2.5rem;
         margin-top: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 14px;
     }
 
     .img_quienesSomos {
-        margin-top: 5px;
+        margin-top:15px;
         height: 350px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .container_QuienesSomos p {
-        font-size: 15px;
+        font-size: 16px;
         width: 95%;
     }
 
