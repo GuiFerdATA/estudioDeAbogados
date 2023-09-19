@@ -367,25 +367,25 @@ div [class^="col-"] {
 
     /*inicio*/
     .contenido_sectionInicio h1 {
-        font-size: 50px;
+        font-size: 45px;
         align-items: center;
     }
 
     .sub_tittle {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     /*quienes somos*/
     .container_QuienesSomos h2 {
         font-size: 2.5rem;
         margin-top: 10px;
-        margin-bottom: 14px;
+        margin-bottom: 5px;
     }
 
     .img_quienesSomos {
-        margin-top: 15px;
+        margin-top: 10px;
         height: 350px;
-        margin-bottom: 40px;
+        margin-bottom: 5px;
     }
 
     .container_QuienesSomos p {
