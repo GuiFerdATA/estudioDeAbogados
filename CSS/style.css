@@ -441,7 +441,7 @@ div [class^="col-"] {
     }
 
     .row img {
-        height: auto;
+        height:50px;
         width: 100%;
     }
 
