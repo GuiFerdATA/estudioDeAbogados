@@ -336,6 +336,217 @@ div [class^="col-"] {
 /*--- MEDIA QUERYS ---*/
 
 
+
+
+/*MOBILE*/
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1024px) and (max-width:1629px){
+    .img_quienesSomos{
+        width: 800px;
+        height: 400px;
+    }
+    .contenido_quienesSomos p{
+        width: 90%;
+    }
+}
+
+
+
+
+
+/*Nest Hub Max*/
+@media only screen and (max-width:1280px) and (max-height:800px){
+    .img_quienesSomos{
+        height: 400px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .row a{
+        margin-top: 5px;
+    }
+}
+/*Nest hub*/
+@media only screen and (max-width:1024px) and (max-height:600px){
+
+    .contenido_sectionInicio h1{
+        font-size: 50px;
+    }
+    .container_QuienesSomos h2{
+        font-size: 40px;
+    }
+    .img_quienesSomos{
+        width: 600px;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .container_QuienesSomos p{
+        font-size: 15px;
+    }
+    .container_servicios h3{
+        font-size: 40px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    .parrafoServicios{
+        margin-top: 5px;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .card-title {
+        font-size: 14px;
+    }
+
+    .card-text {
+        font-size: 10px;
+    }
+    .row a{
+        margin-top: 1px;
+    }
+}
+/*Surface Pro 7*/
+@media only screen and (max-width: 912px) and (max-height:1368px){
+    .contenido_sectionInicio h1{
+        font-size: 110px;
+    }
+    .sub_tittle{
+        font-size: 55px;
+    }
+    .contenido_quienesSomos h2{
+        font-size: 90px;
+    }
+    .img_quienesSomos{
+        width: 850px;
+        height: 700px;
+    }
+    .contenido_quienesSomos p{
+        font-size: 33px;
+    }
+    .container_servicios h3{
+        font-size:90px ;
+    }
+    .parrafoServicios{
+        font-size: 33px;
+    }
+    .card-title {
+        font-size: 25px;
+    }
+
+    .card-text {
+        font-size: 20px;
+    }
+}
+/*iPad Air*/
+@media only screen and (max-width: 820px) and (max-height:1180px){
+    .contenido_quienesSomos h2{
+        font-size: 80px;
+        margin-bottom: 50px;
+    }
+    .img_quienesSomos{
+        width: 750px;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+    .contenido_quienesSomos p{
+        font-size: 25px;
+    }
+    .container_servicios h3{
+        font-size: 80px;
+    }
+    .parrafoServicios{
+        font-size: 25px;
+        margin-bottom: 70px;
+    }
+}
+/*iPad Mini*/
+@media only screen and (max-width: 768px) and (max-height:1024px){
+
+    .img_quienesSomos{
+        margin-bottom: 20px;
+    }
+    .contenido_quienesSomos p{
+        font-size: 22px;
+    }
+    .container_servicios h3{
+        font-size: 80px;
+    }
+    .parrafoServicios{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/*TABLLET*/
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+
+    /*nav*/
+    nav {
+        display: none;
+    }
+
+    .nav-responsive {
+        display: block;
+    }
+
+    nav.responsive {
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 95px;
+        background-color: #1E2D3B;
+        width: 200px;
+
+    }
+
+    nav.responsive ul {
+        display: block !important;
+    }
+
+    nav.responsive ul li {
+        padding: 10px;
+    }
+
+    /*quienes somos*/
+    .contenido_quienesSomos h2 {
+        margin-top: 10px;
+    }
+
+    /*quienes somos*/
+    .container_QuienesSomos h2 {
+        font-size: 2.5rem;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    .img_quienesSomos {
+        margin-top: 5px;
+        height: 350px;
+        width: 600px;
+        margin-bottom: 20px;
+    }
+
+    .container_QuienesSomos p {
+        font-size: 20px;
+        width: 95%;
+    }
+
+    /*servicios*/
+    .container_servicios {
+        width: 90%;
+    }
+}
+/*MOBILE*/
 @media only screen and (max-width: 767px) {
 
     /*nav*/
@@ -452,162 +663,76 @@ div [class^="col-"] {
 
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1023px) {
 
-    /*nav*/
-    nav {
-        display: none;
+/*Surface Duo*/
+@media only screen and (max-width: 540px) and (max-height:720px){
+    .contenido_sectionInicio h1{
+        font-size: 60px;
     }
-
-    .nav-responsive {
-        display: block;
+    .sub_tittle{
+        font-size: 30px;
     }
-
-    nav.responsive {
-        display: block;
-        position: absolute;
-        right: 0px;
-        top: 95px;
-        background-color: #1E2D3B;
-        width: 200px;
-
-    }
-
-    nav.responsive ul {
-        display: block !important;
-    }
-
-    nav.responsive ul li {
-        padding: 10px;
-    }
-
-    /*quienes somos*/
-    .contenido_quienesSomos h2 {
-        margin-top: 10px;
-    }
-
-    /*quienes somos*/
-    .container_QuienesSomos h2 {
-        font-size: 2.5rem;
-        margin-top: 10px;
-        margin-bottom: 40px;
-    }
-
-    .img_quienesSomos {
-        margin-top: 5px;
-        height: 350px;
-        width: 600px;
-        margin-bottom: 20px;
-    }
-
-    .container_QuienesSomos p {
-        font-size: 20px;
-        width: 95%;
-    }
-
-    /*servicios*/
-    .container_servicios {
-        width: 90%;
-    }
-}
-
-@media only screen and (max-width: 319px) {
-     /*nav*/
-     nav {
-        display: none;
-    }
-
-    .nav-responsive {
-        display: block;
-    }
-
-    nav.responsive {
-        display: block;
-        position: absolute;
-        right: 0px;
-        top: 95px;
-        background-color: #1E2D3B;
-        width: 200px;
-
-    }
-
-    nav.responsive ul {
-        display: block !important;
-    }
-
-    nav.responsive ul li {
-        padding: 10px;
-    }
-    .contenido_sectionInicio h1 {
+    .contenido_quienesSomos h2{
         font-size: 40px;
-        align-items: center;
+        margin-bottom: 15px;
     }
-
-    .sub_tittle {
-        font-size: 15px;
-    }
-
-    /*quienes somos*/
-    .container_QuienesSomos h2 {
-        font-size: 2rem;
-        margin-top: 10px;
-        margin-bottom: 14px;
-    }
-
-    .img_quienesSomos {
+    .img_quienesSomos{
+        width: 550px;
+        height: 300px;
         margin-top: 5px;
-        height: 250px;
-        width: 250px;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
-
-    .container_QuienesSomos p {
-        font-size: 15px;
-        width: 90%;
+    .contenido_quienesSomos p{
+        font-size: 18px;
     }
-
-    /*servicios*/
-    .container_servicios {
-        width: 90%;
+    .container_servicios h3{
+        font-size: 40px;
     }
-
-    .container_servicios h3 {
-        font-size: 2rem;
-        margin-top: 5px;
-        margin-bottom: 7px;
+    .parrafoServicios{
+        font-size: 14px;
     }
-
-    .parrafoServicios {
-        font-size: 15px;
-        margin-top: 0px;
-        text-align: center;
-        letter-spacing: 0em;
-        margin-bottom: 18px;
-    }
-
-    .card {
-        height: 150px;
-    }
-    
     .card-title {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .card-text {
-        font-size: 8px;
+        font-size: 12px;
     }
-
-    .col-sm-6 {
-        flex: 0 0 auto;
-        width: 50%;
-    }
-    .row img {
-        height: 50px;
-        width: 100%;
-    }
-    
 }
+/*Samsung Galaxi A51/71*/
+@media only screen and (max-width: 412px) and (max-height:914px){
+    .contenido_sectionInicio h1{
+        font-size: 60px;
+    }
+    .sub_tittle{
+        font-size: 25px;
+    }
+    .contenido_quienesSomos h2{
+        font-size: 50px;
+        margin-bottom: 5px;
+    }
+    .img_quienesSomos{
+        width: 600px;
+        height: 400px;
+        margin-bottom: 5px;
+    }
+    .contenido_quienesSomos p{
+        font-size: 18px;
+    }
+    .container_servicios h3{
+        font-size: 50px;
+    }
+    .parrafoServicios{
+        font-size: 18px;
+    }
+    .card-title {
+        font-size: 14px;
+    }
 
+    .card-text {
+        font-size: 12px;
+    }
+}
 /*iPhone SE*/
 @media only screen and (max-width: 375px) and (max-height:667px) {
     .contenido_quienesSomos h2{
@@ -628,33 +753,149 @@ div [class^="col-"] {
     }
     
 }
+/*Samsung Galaxi S8*/
+@media only screen and (max-width: 360px) and (max-height:740px){
+    .img_quienesSomos{
+        width:350px ;
+        height: 290px;
+    }
+    .parrafoServicios{
+        font-size: 14px;
+    }
+}
 
 
+/*MOBILE*/
+@media only screen and (max-width: 425px) {
+    /*nav*/
+    nav {
+       display: none;
+   }
+
+   .nav-responsive {
+       display: block;
+   }
+
+   nav.responsive {
+       display: block;
+       position: absolute;
+       right: 0px;
+       top: 95px;
+       background-color: #1E2D3B;
+       width: 200px;
+
+   }
+
+   nav.responsive ul {
+       display: block !important;
+   }
+
+   nav.responsive ul li {
+       padding: 10px;
+   }
+   .contenido_sectionInicio h1 {
+       font-size: 40px;
+       align-items: center;
+   }
+
+   .sub_tittle {
+       font-size: 15px;
+   }
+
+   /*quienes somos*/
+   .container_QuienesSomos h2 {
+       font-size: 2rem;
+       margin-top: 10px;
+       margin-bottom: 14px;
+   }
+
+   .img_quienesSomos {
+       margin-top: 5px;
+       height: 250px;
+       width: 250px;
+       margin-bottom: 30px;
+   }
+
+   .container_QuienesSomos p {
+       font-size: 15px;
+       width: 90%;
+   }
+
+   /*servicios*/
+   .container_servicios {
+       width: 90%;
+   }
+
+   .container_servicios h3 {
+       font-size: 2rem;
+       margin-top: 5px;
+       margin-bottom: 7px;
+   }
+
+   .parrafoServicios {
+       font-size: 15px;
+       margin-top: 0px;
+       text-align: center;
+       letter-spacing: 0em;
+       margin-bottom: 18px;
+   }
+
+   .card {
+       height: 150px;
+   }
+   
+   .card-title {
+       font-size: 10px;
+   }
+
+   .card-text {
+       font-size: 8px;
+   }
+
+   .col-sm-6 {
+       flex: 0 0 auto;
+       width: 50%;
+   }
+   .row img {
+       height: 50px;
+       width: 100%;
+   }
+   
+}
 
 
+/*Galaxi Fold*/
+@media only screen and (max-width: 280px) and (max-height:653px){
+    .contenido_sectionInicio h1{
+        font-size: 40px;
+    }
+    .sub_tittle{
+        font-size: 20px;
+    }
+    .contenido_quienesSomos h2{
+        font-size: 30px;
+    }
+    .img_quienesSomos{
+        width: 300px;
+        height: 300px;
+    }
+    .contenido_quienesSomos p{
+        font-size: 12px;
+    }
+    .container_servicios h3{
+        font-size: 30px;
+    }
+    .parrafoServicios{
+        font-size: 11px;
+    }
+    .card-title {
+        font-size: 11px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .card-text {
+        font-size: 9px;
+    }
+}
 
 
 
