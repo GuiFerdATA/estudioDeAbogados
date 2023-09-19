@@ -608,6 +608,26 @@ div [class^="col-"] {
     
 }
 
+/*iPhone SE*/
+@media only screen and (max-width: 375px) and (max-height:667px) {
+    .contenido_quienesSomos h2{
+        font-size: 37px;
+    }
+    .img_quienesSomos{
+        width: 300px;
+        height: 250px;
+    }
+    .container_servicios h3{
+        margin-top: 15px;
+        font-size: 37px;
+        margin-bottom: 0px;
+    }
+    .parrafoServicios{
+        font-size: 13px;
+
+    }
+    
+}
 
 
 
