@@ -364,15 +364,18 @@ div [class^="col-"] {
 /*portatil sam*/
 @media only screen and (max-width:1629px) and (max-height:649px){
     .contenido_sectionInicio h1{
-        font-size: 48px;
+        font-size: 60px;
+    }
+    .sub_tittle{
+        font-size: 30px;
     }
     .contenido_quienesSomos h2{
-        font-size: 38px;
-        margin-bottom: 5px;
+        font-size: 45px;
+        margin-bottom: 15px;
     }
     .img_quienesSomos{
-        margin-bottom: 10px;
-        margin-top: 5px;
+        margin-bottom: 25px;
+        margin-top: 15px;
         width: 600px;
         height: 300px;
     }
@@ -380,14 +383,17 @@ div [class^="col-"] {
         font-size: 17px;
         width: 90%;
     }
+    .container_servicios{
+        width: 80%;
+    }
     .container_servicios h3{
-        font-size: 38px;
+        font-size: 45px;
         margin-bottom: 10px;
         margin-top: 10px;
     }
     .parrafoServicios{
         font-size: 17px;
-        margin-bottom: 5px;
+        margin-bottom: 25px;
     }
     .row img {
         height: 50px;
