@@ -359,7 +359,6 @@ div [class^="col-"] {
     }
 }
 
-
 /*otro tipo de portatil*/
 @media only screen and (max-width:1629px) and (max-height:649px){
     .contenido_sectionInicio h1{
@@ -400,7 +399,7 @@ div [class^="col-"] {
     }
 }
 /*otro tipo de portatil*/
-@media only screen and (max-width:1629px) and (max-height:547px){
+@media only screen and (max-width:1629px) and (max-height:569px){
     .contenido_quienesSomos h2{
         margin-bottom: 5px;
         margin-top: 5px;
@@ -412,7 +411,36 @@ div [class^="col-"] {
         margin-bottom: 5px;
     }
 }
-
+/*otro tipo de portatil*/
+@media only screen and (max-width:1024px) and (max-height:668px){
+    .contenido_quienesSomos h2{
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .contenido_quienesSomos p{
+        font-size: 16px;
+    }
+    .img_quienesSomos{
+        margin-top: 5px;
+        width: 600px;
+        height: 300px;
+        margin-bottom: 25px;
+    }
+    .parrafoServicios{
+        font-size: 16px;
+    }
+    .row img {
+        height: 60px;
+        width: 100%;
+    }
+    .card-title {
+        font-size: 14px;
+    }
+ 
+    .card-text {
+        font-size: 12px;
+    }
+}
 /*Nest hub*/
 @media only screen and (max-width:1024px) and (max-height:600px){
 
@@ -715,7 +743,6 @@ div [class^="col-"] {
 
 
 }
-
 
 
 /*Surface Duo*/
