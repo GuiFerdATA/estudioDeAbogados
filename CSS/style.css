@@ -348,8 +348,23 @@ div [class^="col-"] {
     }
 }
 
+
+
+
+/*Nest Hub Max*/
+@media only screen and (max-width:1280px) and (max-height:800px){
+    .img_quienesSomos{
+        height: 400px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .row a{
+        margin-top: 5px;
+    }
+}
+
 /*portatil sam*/
-@media only screen and (max-width:1629px) and (max-height:606px){
+@media only screen and (max-width:1629px) and (max-height:592px){
     .contenido_sectionInicio h1{
         font-size: 48px;
     }
@@ -381,21 +396,6 @@ div [class^="col-"] {
         width: 100%;
     }
 }
-
-
-/*Nest Hub Max*/
-@media only screen and (max-width:1280px) and (max-height:800px){
-    .img_quienesSomos{
-        height: 400px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    .row a{
-        margin-top: 5px;
-    }
-}
-
-
 
 /*Nest hub*/
 @media only screen and (max-width:1024px) and (max-height:600px){
@@ -807,9 +807,6 @@ div [class^="col-"] {
         font-size: 14px;
     }
 }
-
-
-
 /*Galaxi Fold*/
 @media only screen and (max-width: 280px) and (max-height:653px){
     .contenido_sectionInicio h1{
