@@ -335,7 +335,6 @@ div [class^="col-"] {
 
 /*--- MEDIA QUERYS ---*/
 
-
 @media only screen and (min-width: 1024px) and (max-width:1629px){
     .img_quienesSomos{
         width: 800px;
@@ -396,7 +395,7 @@ div [class^="col-"] {
         margin-bottom: 25px;
     }
     .row img {
-        height: 50px;
+        height: 90px;
         width: 100%;
     }
 }
