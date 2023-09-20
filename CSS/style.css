@@ -359,8 +359,10 @@ div [class^="col-"] {
         margin-top: 5px;
     }
 }
+
+
 /*portatil sam*/
-@media only screen and (max-width:1629px) and (max-height:614px){
+@media only screen and (max-width:1629px) and (max-height:649px){
     .contenido_sectionInicio h1{
         font-size: 48px;
     }
@@ -392,6 +394,8 @@ div [class^="col-"] {
         width: 100%;
     }
 }
+
+
 /*Nest hub*/
 @media only screen and (max-width:1024px) and (max-height:600px){
 
