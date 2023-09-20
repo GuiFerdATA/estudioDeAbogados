@@ -412,7 +412,7 @@ div [class^="col-"] {
     }
 }
 /*otro tipo de portatil*/
-@media only screen and (max-width:1024px) and (max-height:668px){
+@media only screen and (max-width:1629px) and (max-height:668px){
     .contenido_quienesSomos h2{
         margin-bottom: 15px;
         margin-top: 10px;
