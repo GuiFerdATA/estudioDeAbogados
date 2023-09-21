@@ -167,8 +167,10 @@ header nav ul li a:hover {
     height: 100vh;
     scroll-margin-top: 3.5em;
     display: flex;
+    justify-content: center;
     background-color: #ffffff;
 }
+
 
 .img_quienesSomos {
     width: 900px;
@@ -218,7 +220,7 @@ header nav ul li a:hover {
     scroll-margin-top: 3.5em;
     display: flex;
     justify-content: center;
-    align-items: center;
+
     background-color: #E6F4F1;
 }
 
