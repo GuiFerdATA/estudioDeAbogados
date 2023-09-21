@@ -213,6 +213,8 @@ header nav ul li a:hover {
 
 /*SECTION SERVICIOS*/
 .contenedor-servicios {
+    height: 100%;
+    position: absolute;
     scroll-margin-top: 3.5em;
     display: flex;
     justify-content: center;
