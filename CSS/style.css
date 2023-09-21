@@ -217,15 +217,13 @@ header nav ul li a:hover {
 .contenedor-servicios {
     height: 100%;
     position: absolute;
-    scroll-margin-top: 3.5em;
+    scroll-margin-top: 10.5em;
     display: flex;
     justify-content: center;
-
     background-color: #E6F4F1;
 }
 
 .container_servicios {
-
     width: 60%;
 }
 
