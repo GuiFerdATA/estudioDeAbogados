@@ -376,7 +376,7 @@ div [class^="col-"] {
     width: 50%;
     height: 50%;
     float: right;
-    
+
 }
 
 
@@ -389,18 +389,20 @@ div [class^="col-"] {
 
     text-align: center;
 }
-.imgEquipo{
+
+.imgEquipo {
     position: absolute;
     width: 490px;
     height: 450px;
     margin-top: 300px;
     margin-left: 200px;
 }
-.container_izqProfesionales h5{
+
+.container_izqProfesionales h5 {
     font-size: 50px;
     font-family: 'Outfit', sans-serif;
     letter-spacing: 0.003em;
-    color:#1E2D3B;
+    color: #1E2D3B;
     text-align: center;
 
 }
@@ -411,10 +413,10 @@ div [class^="col-"] {
     margin-top: 50px;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.03em;
-    color:#1E2D3B;
+    color: #1E2D3B;
 }
 
-.container_derProfesionales{
+.container_derProfesionales {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -422,16 +424,16 @@ div [class^="col-"] {
     flex-direction: column;
 }
 
-.container_derProfesionales p{
+.container_derProfesionales p {
     font-size: 20px;
     margin-top: 50px;
     letter-spacing: 0.03em;
-    color:#1E2D3B;
+    color: #1E2D3B;
     width: 50%;
     font-family: 'Open Sans', sans-serif;
 }
 
-.iconProfesionales{
+.iconProfesionales {
     font-size: 30px;
     margin-top: 50px;
 }
@@ -440,8 +442,8 @@ div [class^="col-"] {
 /*SECCION CONTACTO*/
 
 .contacto {
-
-    background-color: #f8f9fa;
+    scroll-margin: 3.5em;
+    background-color: #E6F4F1;
     color: #000000;
     padding: 50px 0;
     position: absolute;
@@ -474,7 +476,8 @@ div [class^="col-"] {
     padding: 10px;
     position: relative;
 }
-.contacto .col textarea{
+
+.contacto .col textarea {
     resize: none;
 }
 
@@ -533,6 +536,64 @@ div [class^="col-"] {
     display: inline-block;
     margin-right: 20px;
 }
+
+
+/* ----------FOOTER ------------*/
+footer {
+    background-color: #5FBBBF;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    position: absolute;
+    margin-top: 910px;
+    width: 100%;
+}
+
+footer .redes {
+    margin-bottom: 10px;
+}
+
+footer .redes a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 5px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+footer .arriba {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color:#fff;
+    border: 1.7px solid #4cb8d3;
+    color: #5FBBBF;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -10%;
+    border-radius: 50px;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
