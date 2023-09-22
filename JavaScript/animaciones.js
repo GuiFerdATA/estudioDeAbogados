@@ -81,28 +81,28 @@ window.sr =ScrollReveal();
         origin:'left',
         distance: '100px',
         reset: true,
-        delay: 300,
+        delay: 200,
     });
     sr.reveal('.titleAnimadoC', {
         duration: 1300,
         origin:'left',
         distance: '100px',
         reset: true,
-        delay: 300,
+        delay: 200,
     });
     sr.reveal('.imgContacto', {
-        duration: 3000,
+        duration: 2500,
         origin:'left',
         distance: '100px',
         reset: true,
-        delay: 400,
+        delay: 200,
     });
     sr.reveal('.info', {
-        duration: 3700,
+        duration: 2500,
         origin:'left',
         distance: '100px',
         reset: true,
-        delay: 400,
+        delay: 200,
     });
 
     
