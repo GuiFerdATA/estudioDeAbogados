@@ -101,7 +101,6 @@ window.sr =ScrollReveal();
         duration: 1300,
         origin:'left',
         distance: '100px',
-        reset: true,
         delay: 100,
     });
     sr.reveal('.btn_enviarMsj', {
