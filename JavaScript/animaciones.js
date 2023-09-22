@@ -109,7 +109,7 @@ window.sr =ScrollReveal();
         delay: 100,
     });
     sr.reveal('.redes', {
-        duration: 200,
+        duration: 2000,
         origin:'left',
         distance: '50px',
         reset: true,
