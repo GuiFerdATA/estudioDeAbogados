@@ -216,11 +216,11 @@ header nav ul li a:hover {
 /*SECTION SERVICIOS*/
 .contenedor-servicios {
     height: 100%;
-    position: absolute;
-    scroll-margin-top: 3.5em;
+    scroll-margin-top: 10.5rem;
     display: flex;
     justify-content: center;
     background-color: #E6F4F1;
+    position: absolute;
 }
 
 .container_servicios {
@@ -347,12 +347,95 @@ div [class^="col-"] {
 }
 
 
+/* SECTION PROFESIONALES */
 
-
-.section_profesionales{
-    background-color: red;
+.section_profesionales {
+    scroll-margin: 3.5em;
+    background-color: #ffffff;
     height: 100vh;
+    position: relative;
+    margin-top: 610px;
+    display: flex;
+    justify-content: center;
 }
+
+.container_profesionales h4 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.spanEquipo {
+    color: #5FBBBF;
+}
+
+.container_derProfesionales {
+    background-color: #18d4ca;
+    width: 50%;
+    height: 50%;
+    float: right;
+    
+}
+
+
+.container_izqProfesionales {
+    background-color: #4cb8d3;
+    width: 50%;
+    height: 50%;
+    margin-top: 100px;
+    margin-left: 12px;
+
+    text-align: center;
+}
+.imgEquipo{
+    position: absolute;
+    width: 490px;
+    height: 450px;
+    margin-top: 300px;
+    margin-left: 200px;
+}
+.container_izqProfesionales h5{
+    font-size: 50px;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 0.003em;
+    color:#1E2D3B;
+    text-align: center;
+
+}
+
+
+.container_izqProfesionales p {
+    font-size: 20px;
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.03em;
+    color:#1E2D3B;
+}
+
+.container_derProfesionales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container_derProfesionales p{
+    font-size: 20px;
+    margin-top: 50px;
+    letter-spacing: 0.03em;
+    color:#1E2D3B;
+    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
 
 
 

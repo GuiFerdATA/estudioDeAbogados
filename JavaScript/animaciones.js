@@ -46,6 +46,41 @@ window.sr =ScrollReveal();
         reset: true,
         delay: 100,
     });
+
+    sr.reveal('.h4', {
+        duration: 2700,
+        origin:'left',
+        distance: '100px',
+        reset: true,
+        delay: 100,
+    });
+    sr.reveal('.h5', {
+        duration: 3200,
+        origin:'left',
+        distance: '100px',
+        reset: true,
+        delay: 100,
+    });
+    
+    sr.reveal('.parrafoProfesionales', {
+        duration: 3200,
+        origin:'left',
+        distance: '100px',
+        reset: true,
+        delay: 300,
+    });
+    sr.reveal('.parraforIzqProfesionales', {
+        duration: 3200,
+        origin:'left',
+        distance: '100px',
+        reset: true,
+        delay: 300,
+    });
+
+
+    
+    
+
     
     
 
