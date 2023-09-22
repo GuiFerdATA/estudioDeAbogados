@@ -76,8 +76,36 @@ window.sr =ScrollReveal();
         reset: true,
         delay: 300,
     });
+    sr.reveal('.inputContacto', {
+        duration: 3500,
+        origin:'left',
+        distance: '100px',
+        reset: true,
+        delay: 300,
+    });
+    sr.reveal('.titleAnimadoC', {
+        duration: 1300,
+        origin:'left',
+        distance: '100px',
+        reset: true,
+        delay: 300,
+    });
+    sr.reveal('.imgContacto', {
+        duration: 3000,
+        origin:'left',
+        distance: '100px',
+        reset: true,
+        delay: 400,
+    });
+    sr.reveal('.info', {
+        duration: 3700,
+        origin:'left',
+        distance: '100px',
+        reset: true,
+        delay: 400,
+    });
 
-
+    
     
     
 
