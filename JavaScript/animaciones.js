@@ -77,11 +77,9 @@ window.sr =ScrollReveal();
         delay: 300,
     });
     sr.reveal('.inputContacto', {
-        duration: 3500,
+        duration: 2000,
         origin:'left',
         distance: '100px',
-        reset: true,
-        delay: 200,
     });
     sr.reveal('.titleAnimadoC', {
         duration: 1300,
@@ -111,14 +109,14 @@ window.sr =ScrollReveal();
         delay: 100,
     });
     sr.reveal('.redes', {
-        duration: 2500,
+        duration: 200,
         origin:'left',
         distance: '50px',
         reset: true,
-        delay: 200,
+        delay: 100,
     });
     sr.reveal('.arriba', {
-        duration: 2500,
+        duration: 2000,
         origin:'bottom',
         distance: '13px',
         reset: true,
