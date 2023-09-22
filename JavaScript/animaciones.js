@@ -76,11 +76,7 @@ window.sr =ScrollReveal();
         reset: true,
         delay: 300,
     });
-    sr.reveal('.inputContacto', {
-        duration: 2000,
-        origin:'left',
-        distance: '100px',
-    });
+
     sr.reveal('.titleAnimadoC', {
         duration: 1300,
         origin:'left',
@@ -100,14 +96,9 @@ window.sr =ScrollReveal();
         origin:'left',
         distance: '100px',
         delay: 100,
-    });
-    sr.reveal('.btn_enviarMsj', {
-        duration: 2500,
-        origin:'left',
-        distance: '100px',
         reset: true,
-        delay: 100,
     });
+
     sr.reveal('.redes', {
         duration: 2000,
         origin:'left',
