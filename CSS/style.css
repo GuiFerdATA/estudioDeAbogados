@@ -1150,10 +1150,10 @@ footer .arriba {
         margin-top: 30px;
     }
     .imgEquipo{
-        width: 200px;
+        width:250px;
         height: 200px;
         margin-left: 50px;
-        margin-top: 450px;
+        margin-top: 400px;
     }
     .container_izqProfesionales h5{
         font-size: 1.5rem;
@@ -1171,8 +1171,8 @@ footer .arriba {
         font-size: 2.5rem;
     }
     .contacto .col .info{
-        width: 90%;
-        left: 50%;
+        width: 70%;
+        left: 60%;
     }
     .contacto .col .info ul li{
         font-size: 9px;
