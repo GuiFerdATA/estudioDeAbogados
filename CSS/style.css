@@ -1167,16 +1167,22 @@ footer .arriba {
         font-size: 13px;
         width: 90%;
     }
-
+    .contacto h2{
+        font-size: 2.5rem;
+    }
     .contacto .col .info{
-        width: 100%;
-        left: 107%;
-
+        width: 90%;
+        left: 155%;
+    }
+    .contacto .col .info ul li{
+        font-size: 12px;
+        margin-left: -50px;
     }
 
     .contacto button{
         width: 300px;
     }
+
 }
 
 
