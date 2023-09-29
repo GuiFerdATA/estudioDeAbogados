@@ -1145,9 +1145,38 @@ footer .arriba {
         width: 100%;
     }
 
+    .container_profesionales h4{
+        font-size: 2.5rem;
+        margin-top: 30px;
+    }
+    .imgEquipo{
+        width: 200px;
+        height: 200px;
+        margin-left: 50px;
+        margin-top: 450px;
+    }
+    .container_izqProfesionales h5{
+        font-size: 1.5rem;
+    }
+    .container_izqProfesionales p{
+        margin-top: 45px;
+        font-size: 13px;
+    }
+    .container_derProfesionales p{
+        margin-top: 25px;
+        font-size: 13px;
+        width: 90%;
+    }
 
+    .contacto .col .info{
+        width: 100%;
+        left: 107%;
 
+    }
 
+    .contacto button{
+        width: 300px;
+    }
 }
 
 
