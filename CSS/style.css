@@ -1172,10 +1172,10 @@ footer .arriba {
     }
     .contacto .col .info{
         width: 90%;
-        left: 155%;
+        left: 50%;
     }
     .contacto .col .info ul li{
-        font-size: 12px;
+        font-size: 9px;
         margin-left: -50px;
     }
 
