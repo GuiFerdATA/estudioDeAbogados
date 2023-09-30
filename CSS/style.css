@@ -609,6 +609,23 @@ footer .arriba {
     .contenido_quienesSomos p {
         width: 90%;
     }
+    
+        /*CONTACTO*/
+        .contacto h2{
+            font-size: 2.5rem;
+        }
+        .contacto .col .info{
+            width: 70%;
+            left: 25%;
+        }
+        .contacto .col .info ul li{
+
+            margin-left: -50px;
+        }
+    
+        .contacto button{
+            width: 300px;
+        }
 }
 
 
@@ -1031,6 +1048,36 @@ footer .arriba {
     .card-text {
         font-size: 12px;
     }
+        /*PROFESIONALES*/
+
+
+
+        .container_izqProfesionales p{
+            margin-top: 45px;
+
+        }
+        .container_derProfesionales p{
+            margin-top: 25px;
+
+            width: 90%;
+        }
+        
+        /*CONTACTO*/
+        .contacto h2{
+            font-size: 2.5rem;
+        }
+        .contacto .col .info{
+            width: 70%;
+            left: 30%;
+        }
+        .contacto .col .info ul li{
+
+            margin-left: -50px;
+        }
+    
+        .contacto button{
+            width: 300px;
+        }
 }
 
 /*MOBILE*/
@@ -1175,7 +1222,7 @@ footer .arriba {
     }
     .contacto .col .info{
         width: 70%;
-        left: 60%;
+        left: 50%;
     }
     .contacto .col .info ul li{
         font-size: 9px;
@@ -1456,6 +1503,46 @@ footer .arriba {
         height: 50px;
         width: 100%;
     }
+        /*PROFESIONALES*/
+        .container_profesionales h4{
+            font-size: 2.5rem;
+            margin-top: 30px;
+        }
+        .imgEquipo{
+            width:250px;
+            height: 200px;
+            margin-left: 50px;
+            margin-top: 400px;
+        }
+        .container_izqProfesionales h5{
+            font-size: 1.5rem;
+        }
+        .container_izqProfesionales p{
+            margin-top: 45px;
+            font-size: 13px;
+        }
+        .container_derProfesionales p{
+            margin-top: 25px;
+            font-size: 13px;
+            width: 90%;
+        }
+        
+        /*CONTACTO*/
+        .contacto h2{
+            font-size: 2.5rem;
+        }
+        .contacto .col .info{
+            width: 70%;
+            left: 45%;
+        }
+        .contacto .col .info ul li{
+            font-size: 9px;
+            margin-left: -50px;
+        }
+    
+        .contacto button{
+            width: 300px;
+        }
 
 }
 
