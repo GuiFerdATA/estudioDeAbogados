@@ -385,7 +385,7 @@ div [class^="col-"] {
     width: 50%;
     height: 50%;
     margin-top: 100px;
-    margin-left: 12px;
+    margin-left: 5px;
 
     text-align: center;
 }
@@ -421,6 +421,7 @@ div [class^="col-"] {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-right: 5px;
     flex-direction: column;
 }
 
