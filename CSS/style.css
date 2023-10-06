@@ -409,7 +409,7 @@ div [class^="col-"] {
     height: 450px;
     margin-top: 300px;
     margin-left: 200px;
-    border-radius: 220px;
+    border-radius: 25%;
 }
 
 .container_izqProfesionales h5 {

@@ -77,13 +77,6 @@ window.sr =ScrollReveal();
         delay: 300,
     });
     
-    sr.reveal('.container_derProfesionales', {
-        duration: 3200,
-        origin:'left',
-        distance: '100px',
-        reset: true,
-        delay: 300,
-    });
     sr.reveal('.titleAnimadoC', {
         duration: 1300,
         origin:'left',
