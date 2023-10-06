@@ -101,9 +101,9 @@ header nav ul li a:hover {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
-    background-color: #3ce8f1;
-    opacity: 0.1;
+    height: 100%;
+    color:white;
+    opacity: 0.2;
 }
 
 .contenido_sectionInicio {
@@ -134,16 +134,29 @@ header nav ul li a:hover {
     letter-spacing: 0.05em;
     animation: teclear 5s steps(100);
     margin-top: 20px;
+    color: #ffffff;
 
 }
 
 .spanTandil {
     font-family: 'Outfit', sans-serif;
     letter-spacing: 0.3em;
+    color: #18d4ca;
+}
+.spanDil {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 0.3em;
+    color: #ffffff;
 
 
 }
 
+.spanEstudio{
+    color: #ffffff;
+}
+.spanJuridico{
+    color: #18d4ca;
+}
 @keyframes teclear {
     from {
         clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
@@ -396,6 +409,7 @@ div [class^="col-"] {
     height: 450px;
     margin-top: 300px;
     margin-left: 200px;
+    border-radius: 220px;
 }
 
 .container_izqProfesionales h5 {
