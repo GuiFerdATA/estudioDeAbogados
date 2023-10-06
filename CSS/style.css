@@ -103,6 +103,7 @@ header nav ul li a:hover {
     height: 100%;
     background-color: #18d4ca;
     opacity: 0.1;
+    
 }
 
 .contenido_sectionInicio {
@@ -147,7 +148,7 @@ header nav ul li a:hover {
 .spanDil {
     font-family: 'Outfit', sans-serif;
     letter-spacing: 0.3em;
-    color: #4cb8d3;
+    color: #ffffff;
     
 }
 .spanEstudio{
