@@ -1089,6 +1089,9 @@ footer .arriba {
 
             width: 90%;
         }
+        .iconProfesionales{
+            margin-top: 10px;
+        }
         
         /*CONTACTO*/
         .contacto h2{
